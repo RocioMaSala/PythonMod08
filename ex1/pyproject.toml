@@ -2,13 +2,14 @@
 name = "matrix-loading"
 version = "0.1.0"
 description = "A data analysis program simulating Matrix data."
-authors = ["romarti2"]
+authors = ["romarti2sour"]
 
 [tool.poetry.dependencies]
+pyarrow
 python = "^3.10"
-pandas = "^2.2.0"
-numpy = "^1.26.0"
-matplotlib = "^3.8.0"
+pandas = "^2.1.0"
+numpy = "^1.25.0"
+matplotlib = "^3.7.2"
 
 [build-system]
 requires = ["poetry-core"]
