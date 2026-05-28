@@ -3,9 +3,9 @@ name = "matrix-loading"
 version = "0.1.0"
 description = "A data analysis program simulating Matrix data."
 authors = ["romarti2sour"]
+package-mode = false
 
 [tool.poetry.dependencies]
-pyarrow
 python = "^3.10"
 pandas = "^2.1.0"
 numpy = "^1.25.0"
